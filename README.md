@@ -1,2 +1,2 @@
 # learning
-Personal learning repository on today’s technology trends, AI, hardware, software, networking, and hands-on lab practice.
+Personal interest and learning repository on today’s technology trends, including AI, hardware, software, networking, and hands-on lab practice.
