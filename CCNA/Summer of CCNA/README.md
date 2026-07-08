@@ -57,12 +57,12 @@ This course is part of my personal learning repository for today’s technology 
 
 | Week    | Date Range           | Skills / Topics                                              | Labs / Practice                                              | Status      |
 | ------- | -------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- |
-| Week 1  | May 4–8, 2026        | Skill 00–02: Networking basics, switches, routers, TCP/IP, OSI model, Packet Tracer setup, Castle Rysen Coffee RFP | Build first Packet Tracer network                            | Not Started |
-| Week 2  | May 11–15, 2026      | Skill 02–03: LAN vs WAN, clients and servers, switching, wireless, routers, firewalls, cabling, network diagrams | Packet Tracer Coffee House                                   | Not Started |
-| Week 3  | May 18–22, 2026      | Skill 04–05: OSI vs TCP/IP, network design models, console connection, Cisco IOS, base configuration | Cisco IOS navigation, base configuration, saving/resetting configs | Not Started |
-| Week 4  | May 26–29, 2026      | Skill 05–07: District shop bring-up, MAC addresses, Ethernet frames, CAM table, switch behavior, IP addressing intro | CAM table tracking, switch recon labs                        | Not Started |
-| Week 5  | June 1–5, 2026       | Skill 07–09: Subnet masks, private/public IPs, switch interfaces, router interfaces, interface counters, local routing | Configure switch/router interfaces, local routing            | Not Started |
-| Week 6  | June 8–12, 2026      | Skill 09–10: Static routing, default routing, dynamic routing, EIGRP, routing tables, NAT concepts, static NAT | Static/default routing, EIGRP, routing table labs, static NAT | Not Started |
+| Week 1  | May 4–8, 2026        | Skill 00–02: Networking basics, switches, routers, TCP/IP, OSI model, Packet Tracer setup, Castle Rysen Coffee RFP | Build first Packet Tracer network                            | Completed   |
+| Week 2  | May 11–15, 2026      | Skill 02–03: LAN vs WAN, clients and servers, switching, wireless, routers, firewalls, cabling, network diagrams | Packet Tracer Coffee House                                   | Completed   |
+| Week 3  | May 18–22, 2026      | Skill 04–05: OSI vs TCP/IP, network design models, console connection, Cisco IOS, base configuration | Cisco IOS navigation, base configuration, saving/resetting configs | Completed   |
+| Week 4  | May 26–29, 2026      | Skill 05–07: District shop bring-up, MAC addresses, Ethernet frames, CAM table, switch behavior, IP addressing intro | CAM table tracking, switch recon labs                        | Completed   |
+| Week 5  | June 1–5, 2026       | Skill 07–09: Subnet masks, private/public IPs, switch interfaces, router interfaces, interface counters, local routing | Configure switch/router interfaces, local routing            | Completed   |
+| Week 6  | June 8–12, 2026      | Skill 09–10: Static routing, default routing, dynamic routing, EIGRP, routing tables, NAT concepts, static NAT | Static/default routing, EIGRP, routing table labs, static NAT | In Progress |
 | Week 7  | June 15–19, 2026     | Skill 10–11: Dynamic NAT, NAT overload, basic NAT, subnetting, binary conversion, VLSM | Dynamic NAT, NAT overload, subnetting practice               | Not Started |
 | Week 8  | June 22–26, 2026     | Skill 11–12: Re-addressing strategy, VLANs, trunks, inter-VLAN routing, native VLAN, trunk protocol security | VLAN creation, trunking, routing between VLANs, native VLAN labs | Not Started |
 | Week 9  | June 29–July 2, 2026 | Skill 12–13: Castle Rysen VLAN implementation, STP concepts, STP port selection, port states, Rapid STP, BPDU Guard | VLAN implementation, STP configuration, BPDU Guard labs      | Not Started |
@@ -94,6 +94,7 @@ show vlan brief
 show interfaces trunk
 show mac address-table
 show ip route
+
 ping
 traceroute
 copy running-config startup-config
